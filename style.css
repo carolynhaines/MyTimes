@@ -122,6 +122,7 @@ nav span a {
 
 .feature-headline {
   display: block;
+  padding-left:30px;
 }
 
 .feature-photo {
