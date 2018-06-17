@@ -50,4 +50,47 @@ nav span a {
 
 .container {
   display: flex;
+  border: 1px solid black;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  position: relative;
+  top: 80px;
+  height: 700px;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.column.large {
+  width: 630px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  height: 650px;
+}
+
+.column.medium {
+  width: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  height: 650px;
+}
+
+.column.small {
+  width: 240px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  height: 650px;
+}
+
+.image {
+  border: 1px solid black;
+}
+
+.article {
+  border: 1px solid black;
 }
