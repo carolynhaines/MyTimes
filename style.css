@@ -1,0 +1,14 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav {
+  color: black;
+  text-decoration: underline;
+}
+
+#logo {
+  color: MediumAquamarine;
+}
